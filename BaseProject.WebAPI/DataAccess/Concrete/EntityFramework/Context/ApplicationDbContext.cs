@@ -15,7 +15,7 @@ namespace BaseProject.WebAPI.DataAccess.Concrete.EntityFramework.Context
  
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(connectionString: @"Data Source=DESKTOP-2JMETKU;Initial Catalog=DBChatApp;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False");
+            optionsBuilder.UseSqlServer(connectionString: @"Data Source=DESKTOP-2JMETKU;Initial Catalog=BaseProject;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False");
         }
 
         public DbSet<User> Users { get; set; }

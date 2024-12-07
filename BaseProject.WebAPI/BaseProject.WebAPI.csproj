@@ -19,12 +19,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="7.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="7.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="7.1.0" />
-    <PackageReference Include="TS.FileService" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Entities\Concrete\" />
-    <Folder Include="wwwroot\avatar\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>
